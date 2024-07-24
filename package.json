@@ -1,0 +1,32 @@
+{
+  "name": "cashbook-app",
+  "version": "0.0.0",
+  "description": "An accounting book app, providing simple finance records control",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "prettier-format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' --config ./.prettierrc",
+    "tsc": "npx tsc --build --clean && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasAGranzotto/cashbook-app.git"
+  },
+  "keywords": [
+    "Accounting",
+    "Finances",
+    "Money"
+  ],
+  "author": "LucasAGranzotto",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LucasAGranzotto/cashbook-app/issues"
+  },
+  "homepage": "https://github.com/LucasAGranzotto/cashbook-app#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4"
+  }
+}
